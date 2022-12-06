@@ -30,47 +30,47 @@ video {
 .Card {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  border-radius: 6px;
-  padding: 26px 32px;
+  gap: 1.5rem;
+  border-radius: 0.375rem;
+  padding: 1.625rem 2rem;
 }
 .Card .header {
   display: flex;
-  gap: 17px;
+  gap: 1.0625rem;
 }
 .Card .header__picture {
-  height: 32px;
-  width: 32px;
-  border-radius: 16px;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
-  border-width: 1px;
+  border-width: 0.0625rem;
   border-style: solid;
 }
 .Card .header__nameBlock {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0.25rem;
 }
 .Card .header__nameBlock__name {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 600;
 }
 .Card .header__nameBlock__status {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   opacity: 0.7;
 }
 .Card .quote {
   display: flex;
   flex-direction: column;
-  gap: 21px;
+  gap: 1.3125rem;
 }
 .Card .quote__title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .Card .quote__text {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   opacity: 0.7;
 }

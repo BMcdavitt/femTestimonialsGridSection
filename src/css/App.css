@@ -35,8 +35,8 @@ video {
 
 .cardHolder {
   display: grid;
-  gap: 24px;
-  margin: 71px 10px 0 10px;
+  gap: 1.5rem;
+  margin: 4.4375rem 0.625rem 0 0.625rem;
 }
 @media (min-width: 750px) {
   .cardHolder {
@@ -46,10 +46,10 @@ video {
 @media (min-width: 1000px) {
   .cardHolder {
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 24px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    row-gap: 1.5rem;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
     margin: auto;
-    max-width: 1110px;
+    max-width: 69.375rem;
   }
 }

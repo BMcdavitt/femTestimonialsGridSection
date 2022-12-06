@@ -10,8 +10,8 @@
 
 .cardHolder {
     display: grid;
-    gap: 24px;
-    margin: 71px 10px 0 10px;
+    gap: 1.5rem;
+    margin: 4.4375rem 0.625rem 0 0.625rem;
 
     @include medium {
         grid-template-columns: repeat(2, 1fr);
@@ -19,10 +19,10 @@
 
     @include large {
         grid-template-columns: repeat(4, 1fr);
-        row-gap: 24px;
-        column-gap: 30px;
+        row-gap: 1.5rem;
+        column-gap: 1.875rem;
         margin: auto;
-        max-width: 1110px;
+        max-width: 69.375rem;
     }
 
 }

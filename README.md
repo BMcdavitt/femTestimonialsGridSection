@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://bmcdavitt.github.io/femTestimonialsGridSection/](https://bmcdavitt.github.io/femTestimonialsGridSection/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://github.com/BMcdavitt/femTestimonialsGridSection/tree/master](https://github.com/BMcdavitt/femTestimonialsGridSection/tree/master)
 
 ## My process
 
