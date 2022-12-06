@@ -1,0 +1,32 @@
+// https://click.convertkit-mail.com/wvu328q928hgh5ve629c7/7qh7h8h0xvelw4s9/aHR0cHM6Ly95b3V0dWJlLmNvbS9zaG9ydHMvMmx5RHYwd09RdVE_ZmVhdHVyZT1zaGFyZQ==
+
+@import 'style';
+
+* *::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+  background-color: $colorBackground;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}

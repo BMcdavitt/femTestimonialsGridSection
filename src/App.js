@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Card from './Card'
+import data from './data'
+
+import './css/App.css'
+
+const cardData = data.testimonialData
 
 function App() {
+  let x = 0
+
+  const cards = cardData.map((value, id) => {
+    x < 5 ? x++ : (x = 1)
+    return (
+      <Card
+        key={id}
+        name={value.name}
+        status={value.status}
+        quoteTitle={value.quoteTitle}
+        quoteBody={value.quoteBody}
+        theme={value.theme}
+        picture={value.picture}
+        layoutId={x}
+      />
+    )
+  })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="cardHolder">{cards}</div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

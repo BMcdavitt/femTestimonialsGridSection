@@ -1,0 +1,28 @@
+@import 'reset';
+@import 'responsive';
+
+.App {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+.cardHolder {
+    display: grid;
+    gap: 24px;
+    margin: 71px 10px 0 10px;
+
+    @include medium {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include large {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 24px;
+        column-gap: 30px;
+        margin: auto;
+        max-width: 1110px;
+    }
+
+}
